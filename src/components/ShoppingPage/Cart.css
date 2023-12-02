@@ -1,0 +1,9 @@
+#offcanvas{
+    font-family: 'Titillium Web', sans-serif;
+}
+#CartImage{
+    height: 120px;
+}
+#offcanvasLabel{
+    border-bottom: 4px solid #c197d5;
+}

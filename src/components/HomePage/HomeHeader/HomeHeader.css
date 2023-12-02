@@ -1,0 +1,56 @@
+.head .h1 {
+	color: #ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:auto;
+}
+
+.head .imgback {
+	background-size: cover;
+}
+
+.head .headbtn {
+	color: #ffffff;
+	background-color: #78E9D2;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.head .headbtn:hover {
+	color: #ffffffcb;
+	background-color: #1defc5c9;
+}
+
+.head .cont {
+	flex-direction: column;
+}
+
+.head .carousel-item.active .h1 {
+	animation: fadeInLeft 1s ease forwards;
+}
+
+.head .carousel-item.active .headbtn {
+	animation: fadeInRight 1s ease forwards;
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-300px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(300px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}

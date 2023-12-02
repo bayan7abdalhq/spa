@@ -1,0 +1,19 @@
+.offers .cardoffer {
+    transition: 0.5s;
+    margin-top: 32px;
+    animation:fadeInUp 5s ease forwards;
+
+}
+
+.offers .cardoffer:hover {
+    transform: scale(1.1);
+
+
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+
+}

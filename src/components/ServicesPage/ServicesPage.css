@@ -1,0 +1,39 @@
+.ser .btnser {
+    background-color: #c197d5;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ser .btnser:hover {
+    background-color: #a97abd;
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.682);
+}
+
+.ser .filser {
+    background-color: #c197d5;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ser button {
+    color: #fff;
+}
+
+.ser button:hover {
+    color: rgb(225, 216, 249);
+}
+
+.ser .imgg {
+    height: 220px;
+    width: 200px;
+}
+
+.ser .servicecard {
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid #c197d5;
+}
+
+.ser .servicecard:hover {
+    box-shadow: 3px 5px 2px 3px rgba(0, 0, 0, 0.253);
+}

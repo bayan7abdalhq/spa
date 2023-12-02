@@ -1,0 +1,52 @@
+.services {
+    background-color: #78e9d2;
+}
+
+.services-title {
+    text-align: center;
+    background-color: #78e9d2;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.services .container {
+    width: 100%;
+    padding: 10px;
+}
+
+.ser-card-title {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ser-card-text {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.services-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    box-shadow: 1px 5px 3px 5px rgba(0, 0, 0, 0.145);
+}
+
+.services-card:hover {
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.253);
+    transition: all 0.7s ease;
+    transform: scale(1.05);
+}
+
+.services-card img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}

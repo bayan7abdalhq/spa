@@ -1,0 +1,24 @@
+.staff {
+    flex-direction: column;
+    background-color: #78E9D2;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.staff .staffcard:hover{
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.253);
+    transition: all 1s ease;
+    
+}
+.staff img {
+    height: 200px;
+    width: 200px;
+   /* display: inline; */
+}
+
+.effect{
+
+    animation:fadeInRight 5s ease forwards;
+
+}

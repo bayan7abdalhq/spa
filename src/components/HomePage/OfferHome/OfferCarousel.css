@@ -1,0 +1,12 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    color: #c197d5;
+    background-color:#c197d5; 
+}
+
+.offers {
+    background-color: #7cd1c5;
+    animation:fadeInDown 3s ease forwards;
+}

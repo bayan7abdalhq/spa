@@ -1,0 +1,10 @@
+.bookbtnn {
+    bottom: 2rem;
+    right: 0.5rem;
+}
+
+.bookbtnn img {
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}

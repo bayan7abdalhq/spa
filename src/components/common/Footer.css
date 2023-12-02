@@ -1,0 +1,104 @@
+.footer {
+    font-family: 'TitilliumWeb', sans-serif;
+    background-color: #c197d5;
+    padding: 1.5em;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#Logo{
+    width: 8em;;
+    height: 5em;
+}
+
+.footer form button {
+    background-color: #78e9d2;
+    border-color: #78e9d2;
+}
+
+.footer form button:hover {
+    border-color: #78e9d2;
+    opacity: 0.8;
+    background-color: #78e9d2;
+}
+
+.footer h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    list-style-type: none;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.footer ul a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer ul a:hover {
+    opacity: 0.8;
+}
+
+.footer .social {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+    margin-top: 1.5em;
+    border-top: solid white;
+}
+.footer .social a{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 0px 0px 1px white;
+    margin: 0.4em;
+    opacity: 0.8;
+    transition: 0.3 ease-in-out;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+    box-shadow: 0px 1px 3px 2px white;
+}
+
+.footer .copyRight {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media(max-width: 768px) {
+    .footer h6 {
+        text-align: center;
+        margin-top: 1.25em;
+        margin-bottom: 0.6em;
+    }
+
+    .footer #Logo {
+        margin-left: 35%;
+        margin-bottom: 1.5em;
+    }
+    form{
+        margin-bottom: 0.9em;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
+    .social{
+         margin: 0 auto;
+        }
+}

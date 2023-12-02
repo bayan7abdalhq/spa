@@ -1,0 +1,18 @@
+
+.about .aboutimg {
+  height: 330px;
+}
+
+.about .title {
+  color: #98CFD8;
+  font-family: 'Titillium Web', sans-serif;
+}
+.about .fade{
+  animation:fadeInRight 3s ease forwards;
+}
+.about .carousel-control-prev-icon,.about
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color:#67158e; 
+}

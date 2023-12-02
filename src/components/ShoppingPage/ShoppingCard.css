@@ -1,0 +1,38 @@
+
+.productcard{ /*For Name and Price product */
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.btncart{ /*For add to cart btn*/
+    background-color : #c197d5;
+    border:#c281e0;
+    width: 100%;
+    height: 30px;
+    color: rgb(255, 255, 255); /*color of Font*/
+    font-size:15px;
+    border-radius: 3px;
+   font-family: 'Titillium Web', sans-serif;
+}
+.btncart:hover{ /* th change state of button*/
+        background-color: #ab80be;;
+        transition: 0.4s; /* To make the change less sudden*/
+        
+}
+
+.card-effect{
+
+    animation:fadeInUp 2s ease forwards;
+    
+
+}
+
+.card-hover:hover{
+
+    box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.2);
+    transition: all 1s ease;
+    transform: scale(1.05);
+}

@@ -1,0 +1,24 @@
+.navbarr .navtext {
+  color: rgb(255, 255, 255);
+  text-decoration: none
+}
+
+.navbarr .navtext:hover {
+  color: rgba(255, 255, 255, 0.784);
+}
+
+.navbarr .logo img {
+  width: 70px;
+  height: 40px;
+}
+
+.navbarr .bookingbtn {
+  background-color: #78e9d2;
+  padding: 18px 10px;
+}
+
+.navbarr {
+  background-color: #c197d5;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
